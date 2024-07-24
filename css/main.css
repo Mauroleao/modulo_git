@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-body > header {
+body>header {
     background-color: #2f3640;
     padding: 16px;
     color: #f5f6fa;
@@ -28,7 +28,7 @@ header li a {
     margin-left: 16px;
 }
 
-.container{
+.container {
     width: 1366px;
     margin: 0 auto;
 
@@ -61,7 +61,7 @@ section h2,
 
 .articles article h3 {
     margin-top: 8px;
-    margin-bottom:  8px;
+    margin-bottom: 8px;
 }
 
 .articles article a {
@@ -78,7 +78,7 @@ section h2,
     text-decoration: underline;
 }
 
-.articles article p, 
+.articles article p,
 .articles article a {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -92,7 +92,7 @@ section h2 {
 }
 
 #sports {
-    background-color: rgba(0,255,0,0.1);
+    background-color: rgba(114, 248, 114, 0.1);
 }
 
 #sports .articles article a {
@@ -100,9 +100,25 @@ section h2 {
 }
 
 #economy {
-    background-color: #f8f59f;
+    background-color: #f8f6c7;
 }
 
 #economy .articles article a {
     background-color: #ff9f1a;
+}
+
+#travel {
+    background-color: #f2d3f8;
+}
+
+#travel .articles article a {
+    background-color: #ec1aff;
+}
+
+#food {
+    background-color: #d3dff8;
+}
+
+#food .articles article a {
+    background-color: #1a57ff;
 }
